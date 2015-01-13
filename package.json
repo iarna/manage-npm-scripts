@@ -1,6 +1,6 @@
 {
   "name": "manage-npm-scripts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Manage package.json `npm run` scripts",
   "main": "index.js",
   "scripts": {
