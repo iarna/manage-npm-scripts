@@ -25,7 +25,6 @@
   "homepage": "https://github.com/iarna/npm-script",
   "dependencies": {
     "extend": "^2.0.0",
-    "in-publish": "^1.1.1",
     "minimist": "^1.1.0"
   },
   "devDependencies": {
