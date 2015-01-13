@@ -1,0 +1,35 @@
+{
+  "name": "manage-npm-scripts",
+  "version": "1.0.0",
+  "description": "Manage package.json `npm run` scripts",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "in-publish && npm shrinkwrap || in-install",
+    "postpublish": "rimraf npm-shrinkwrap.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iarna/npm-script"
+  },
+  "keywords": [
+    "npm",
+    "scripts",
+    "script",
+    "lifecycle"
+  ],
+  "author": "Rebecca Turner <me@re-becca.org>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iarna/npm-script/issues"
+  },
+  "homepage": "https://github.com/iarna/npm-script",
+  "dependencies": {
+    "extend": "^2.0.0",
+    "in-publish": "^1.1.1",
+    "minimist": "^1.1.0"
+  },
+  "devDependencies": {
+    "in-publish": "^1.1.0",
+    "rimraf": "^2.2.8"
+  }
+}
